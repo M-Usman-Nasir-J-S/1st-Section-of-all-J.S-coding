@@ -671,13 +671,15 @@
 
 
 
-
-
-
-
-
 // index 0
 // length 1
+
+
+
+
+
+
+
 
 // var fruits = ["apple", "banana", "orange", "mango", 23, true];
 
@@ -702,7 +704,7 @@
 
 
 
-/* i learned these topics 
+/* i learned these topics */
 
 //push
 //pop
@@ -724,21 +726,39 @@
 
 
 
-// var fruits = ["mango", "orange", "watermelon", "banana", "apple", "pineapple", "guava"]
-
-// console.log(fruits[3])
-// fruits.push("melon")
-// fruits.pop()
-// fruits.unshift("melon")
-// fruits.shift()
+// var fruits = ["mango", "orange", "watermelon", "banana", "apple", "pineapple", "guava"];
 
 
-// fruits.splice(2, 4)
-// fruits.splice(5, 1, "nashpati", "update")
-// fruits.splice(4, 0, "strawberry", 1, 2, 3)
-// fruits.splice(6, 1)
-// var newArr = fruits.slice(3, 5)
-// var newArr = fruits.slice(3)
+// console.log(fruits[3]);
+
+// fruits.push("Strawberrey");
+
+// fruits.pop("");
+
+// fruits.unshift("Strawberrey");
+
+// fruits.shift();
+
+
+
+// fruits.splice(2, 4);
+
+
+// fruits.splice(3, 7, "nashpati", "update", "how", "guys", "Baby");
+
+// fruits.splice(4, 0, "strawberry", 1, 2, 3, true);
+
+
+// fruits.splice(2, 4);
+
+
+// ***Splice ulta kaam kar raha he jab us ko veriable men alag se define kia 
+// to pehla delete kar raha he aur dosra fruits ke quantity bata raha he *** ye slice he 
+
+// var newArr = fruits.slice(3, 7);
+
+// var newArr = fruits.slice(3);
+
 // console.log(newArr);
 
 
@@ -748,19 +768,69 @@
 
 
 
+// My Own Build
+
+
+// var pets = ["cat", "dog", "goat", "cow", "camel", "mouse", "buffello", "graf", "zaibra", "Lion"]
+
+// console.log(pets[6]);
+
+// pets.push("Human")
+// pets.pop()
+// pets.unshift("how")
+// pets.shift()
+// pets.splice(2, 2)
+
+// let array = ["apple", "Banana", "cherry"];
+// let str = array.join(); // Joins with a comma by default
+// console.log(str); // Output: "apple,banana,cherry"
+
+// let array1 = [1, 2, 3];
+// let array2 = [4, 5, 6];
+// let newArray = array1.concat(array2);
+// console.log(newArray); // Output: [1, 2, 3, 4, 5, 6]
+
+// let array = [3, 1, 4, 1, 5, 9, 2, 8, 0, 4, 0, 5, 6];
+// array.sort(); // Sorts as strings by default
+// console.log(array); // Output: [1, 1, 3, 4, 5, 9]
+
+// pets.reverse();
+// console.log(pets);
+
+// let fruits = ["apple", "banana", "cherry", "date"];
+// let index = fruits.indexOf("cherry");
+// console.log(index); // Output: 2 (Index of "cherry");
+
+
+
+
+
+// Own Build
+
+
+// var myName = ["Usman", "Nasir", "JS"];
+// console.log(typeof (myName));
+
+
+// console.log(myName.join (" "));
+
+// var sirName = myName.join("  ");
+// var lastName = sirName.split("  ");
+
+// // console.log(sirName);
+
+// console.log(lastName);
 
 
 
 
 
 
-
-
-
+// SIR Build
 
 
 // var myName = ["Muhammad", "Abdullah", "Khan"];
-// console.log(typeof (myName));
+// // console.log(typeof (myName));
 
 
 // console.log(myName.join(" "));
@@ -784,6 +854,8 @@
 
 // var str = "Azam is intelligent boy";
 // console.log(str.split("e"))
+
+
 
 
 
@@ -816,12 +888,14 @@
 
 
 
-
-
-// var arr = [7, 5, 3, 9, 6, 2, 1, 4];
+// var arr = [7, 5, 3, 9, 6, 2, 1, 4,];
 // // console.log(arr.sort());
 // // console.log(arr.indexOf(0));
-// console.log(arr.includes(32));
+// console.log(arr.includes(8));
+
+
+
+
 
 
 
@@ -833,18 +907,369 @@
 
 
 
-
-
-
-
-
 // var userPreference = prompt("enter first color")
-var colours = ["purple", "orange", "red", "black"]
+// var colours = ["purple", "orange", "red", "black"]
 
 // colours.unshift(userPreference);
-console.log(colours);
+
+// console.log(colours);
+
+
+
 
 
 
 
 /* Array  Topic Ended */
+
+
+
+
+
+
+// // console.log("hello world")
+
+
+
+
+// for loop
+// while loop
+// do while loop
+
+
+
+
+// for (var i = 0; i < 10; i++) {
+//     console.log("hello world", i)
+// }
+
+
+
+
+
+
+
+
+// var num = 21;
+
+// console.log(num + " * " + 1 + " = " + num * 1);
+// console.log(num + " * " + 2 + " = " + num * 2);
+// console.log(num + " * " + 3 + " = " + num * 3);
+// console.log(num + " * " + 4 + " = " + num * 4);
+// console.log(num + " * " + 5 + " = " + num * 5);
+// console.log(num + " * " + 6 + " = " + num * 6);
+// console.log(num + " * " + 7 + " = " + num * 7);
+// console.log(num + " * " + 8 + " = " + num * 8);
+// console.log(num + " * " + 9 + " = " + num * 9);
+// console.log(num + " * " + 10 + " = " + num * 10);
+
+
+// for (let i = 0; i <= 10; i++) {
+//     console.log(num + " * " + i + " = " + num * i);
+    
+// }
+
+
+
+// var num = 2
+
+// for (var i = 1; i <= 10; i++) {
+//     console.log(num + " * " + i + " = " + num * i)
+// }
+
+
+
+
+
+// var head = document.querySelector("#head-one");
+
+// function changeText() {
+//     console.log("function called")
+// }
+
+
+
+
+
+
+
+// var username = "abdullah";
+// var age = 20;
+
+// console.log("your username is " + username + " and your age is " + age)
+
+// console.log(`hello world ${username}`);
+
+// console.log(`your username is ${username} and your age is ${age}`);
+
+
+
+
+
+// console.log("before loop")
+
+// for (var i = 0; i < 10; i++) {
+//     console.log("inside loop")
+// }
+
+// console.log("after loop")
+
+
+
+
+
+
+
+
+
+// for (var i = 1; i <= 100; i++) {
+//     console.log("outside nested loop");
+
+//     for (var j = 1; j <= 10; j++) {
+//         // console.log("inside loop");
+//         console.log(`${i} * ${j} = ${i * j}`);
+
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+// // infinite loop
+
+// for(var i = 11; i > 10; i++)
+
+
+// // is in fine loop ko mat chalana... 
+// // kio ke is se Copputer/Laptop kharab hone ka khatra hota he...?
+// // ! kion ke ye unlimited hota he aur chalta he rahta he; 
+
+
+
+
+
+
+
+
+
+
+// for (var i = 10; i < 5; i++) {
+//     console.log(i)
+// }
+
+
+// var i = 0
+
+// while (i < 10) {
+//     console.log(i)
+//     i++
+// }
+
+
+
+
+
+
+
+
+
+
+
+// do while loop
+
+
+// var i = 15
+// do {
+//     console.log(i)
+//     i++
+// } while (i < 5)
+
+
+
+
+
+
+
+
+// var div = document.querySelector("div");
+
+// var fruits = ["mango", "banana", "apple", "orange", 23]
+
+// for (var i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i])
+//     div.innerHTML += `${fruits[i]} <br/>`
+// }
+
+
+
+
+
+
+
+
+
+// .)  array ko screen pa render krwana
+// .)  for loop
+// .)  push or splice
+// .)  template literals
+
+// These all 4 points are helping in make a todo aap !
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // Simple Counter Started
+
+
+
+
+
+ var heading = document.querySelector ("#heading")
+
+
+function increase() {
+    
+    heading.innerHTML = ++heading.innerHTML
+
+}
+
+
+function decrease() {
+    if (heading.innerHTML > 0) {
+        --heading.innerHTML
+    }
+}
+
+function reset() {
+    heading.innerHTML = 0;
+}
+
+
+
+
+// Simple Counter Ended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Time Table Started
+
+
+
+
+
+var input = document.querySelector("#input");
+
+var output = document.querySelector("#output")
+
+function table(){
+
+    tableError.innerHTML = "";
+
+    output.innerHTML = "<h1>Your Written Table Here!</h1>"
+
+    for(var i=1; i<=10; i++){ 
+
+        output.innerHTML += `${input.value} x ${i} = ${input.value * i}<br/>`
+    
+    }
+
+}
+
+
+
+
+// Time Table Ended
+
+
+
+
+
+// Todo App Cooding Started
+
+
+
+
+var input = document.querySelector("#input");
+
+var array = [];
+
+var printArr = document.querySelector("#renderArr")
+
+function renderArray() {
+
+    printArr.innerHTML = ""
+ 
+    for (var i = 0; i < array.length; i++) {
+ 
+        printArr.innerHTML += `<li>${array[i]}
+        <button onclick = "deleteTodo(${i})" class = "delete satisfy-regular">delete</button>
+        <button onclick = "editTodo(${i})" class = "edit satisfy-regular">edit</button>
+        </li>`
+    }
+
+}
+
+
+function submit() {
+ 
+    // console.log(input.value)
+    array.push(input.value)
+    // console.log(array);
+ 
+    renderArray()
+    input.value = ""
+
+}
+
+
+
+function deleteTodo(index) {
+
+    array.splice(index, 1);
+    renderArray()
+
+}
+
+
+
+function editTodo(index) {
+
+    var updatedVal = prompt('enter updated value');
+    array.splice(index, 1, updatedVal);
+    renderArray()
+
+}
+
+
+
+
+// Todo App Cooding Ended
+
