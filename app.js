@@ -262,6 +262,7 @@
 // var b = 8
 // var c = 12
 
+
 // console.log("One Plus Average of a and b is ", onePlusAvg(a , b));
 // console.log("One Plus Average of a and c is ", onePlusAvg(b , c));
 // console.log("One Plus Average of b and c is ", onePlusAvg(a , c));
@@ -543,18 +544,18 @@
 
 
 
-// var head = document.querySelector("#head");
+var head = document.querySelector("#head");
 
 
 
-// function changeValue() {
-//     // console.log("func");
-//     if (head.innerHTML === "On") {
-//         head.innerHTML = "Off"
-//     } else {
-//         head.innerHTML = "On"
-//     }
-// }
+function changeValue() {
+    // console.log("func");
+    if (head.innerHTML === "On") {
+        head.innerHTML = "Off"
+    } else {
+        head.innerHTML = "On"
+    }
+}
 
 
 
@@ -1130,146 +1131,384 @@
 
 
 
+// Simple Counter Cooding is avalibale in the chat 
+// It has also one folder alone go & see now  
 
 
 
 
 
- // Simple Counter Started
+
+
+// Time Table Cooding is avalibale in the chat 
+// It has also one folder alone go & see now  
 
 
 
 
 
- var heading = document.querySelector ("#heading")
 
 
-function increase() {
+// Todo App Cooding is avalibale in the chat 
+// It has also one folder alone go & see now  
+
+
+
+
+
+
+
+
+// Strings Methods Started
+
+
+
+
+
+
+
+// toLowerCase
+// toUpperCase
+// length
+// charAt
+// indexOf
+// slice
+// replace
+// replaceall
+// split
+
+
+
+// var username = "AbffsFEfd"
+
+
+// var jhoot = "Azam is a good cricketer. He is a fittest player after virat kohli in the world. Azam is looking like a wow. He passed all the fitness test. He followed diet strictly."
+
+
+// console.log(username);
+
+
+// console.log(username.toLowerCase());
+// console.log(username.toUpperCase());
+// console.log(username.length);
+// console.log(username[0]);
+// console.log(username.charAt(4));
+// console.log(username.indexOf("f"));
+// console.log(username.lastIndexOf("f"));
+// console.log(username.slice(4));
+// console.log(jhoot.replace("Azam", "Abdullah shafique"));
+// console.log(jhoot.replaceAll("Azam", "Abdullah shafique"));
+// console.log(jhoot.split(" ").reverse().join(" "));
+// console.log(20 + true)
+
+
+
+
+
+
+// var arr = [1, 2, 3]
+// arr[6] = "pukhta irrada"
+// // arr.length = 0
+// console.log(arr)
+
+
+
+
+
+
+
+
+// var cities = ['karachi', 'lahore', 'islamabad', 'peshawar', 'quetta', 'multan', 'hyderabad']
+
+
+
+
+// var city = document.querySelector("#city");
+
+
+
+// function checkCity() {
+
+
+
+
+//     if (cities.indexOf(city.value.toLowerCase()) === -1) {
+
+//         console.log("maalik galat jaga paida hogaye hoo..")
     
-    heading.innerHTML = ++heading.innerHTML
-
-}
-
-
-function decrease() {
-    if (heading.innerHTML > 0) {
-        --heading.innerHTML
-    }
-}
-
-function reset() {
-    heading.innerHTML = 0;
-}
-
-
-
-
-// Simple Counter Ended
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Time Table Started
-
-
-
-
-
-var input = document.querySelector("#input");
-
-var output = document.querySelector("#output")
-
-function table(){
-
-    tableError.innerHTML = "";
-
-    output.innerHTML = "<h1>Your Written Table Here!</h1>"
-
-    for(var i=1; i<=10; i++){ 
-
-        output.innerHTML += `${input.value} x ${i} = ${input.value * i}<br/>`
+//     }
     
-    }
+//        else {
+//             console.log("ustaad zabardast ha tum hi zindagi jee rha ho.");
 
-}
-
-
-
-
-// Time Table Ended
+//         }
 
 
 
 
+//     for (var i = 0; i < cities.length; i++) {
 
-// Todo App Cooding Started
+//         if (cities[i] === city.value) {
+//             console.log("valid")
+//             break
+//         } else {
+//             console.log("unvalid");
 
+//         }
+//     }
 
-
-
-var input = document.querySelector("#input");
-
-var array = [];
-
-var printArr = document.querySelector("#renderArr")
-
-function renderArray() {
-
-    printArr.innerHTML = ""
- 
-    for (var i = 0; i < array.length; i++) {
- 
-        printArr.innerHTML += `<li>${array[i]}
-        <button onclick = "deleteTodo(${i})" class = "delete satisfy-regular">delete</button>
-        <button onclick = "editTodo(${i})" class = "edit satisfy-regular">edit</button>
-        </li>`
-    }
-
-}
-
-
-function submit() {
- 
-    // console.log(input.value)
-    array.push(input.value)
-    // console.log(array);
- 
-    renderArray()
-    input.value = ""
-
-}
-
-
-
-function deleteTodo(index) {
-
-    array.splice(index, 1);
-    renderArray()
-
-}
-
-
-
-function editTodo(index) {
-
-    var updatedVal = prompt('enter updated value');
-    array.splice(index, 1, updatedVal);
-    renderArray()
-
-}
+//     city.value = ""
+// }
 
 
 
 
-// Todo App Cooding Ended
+// Ye mere khayal men poora nahi howa tha.....  
+// is ke jo neeche cooding he
 
+
+
+
+// var username = "abdullah";
+// var age = 20;
+// var isLoggedIn = true;
+
+
+// // console.log(typeof (age))
+
+
+// var hobbies = ["cricket", "swimming", "eating"];
+
+// console.log(typeof(hobbies));
+
+
+// function greetUser (username) {
+//     return `hello ${username}`
+// }
+
+
+// var greetings = greetUser("abdullah")
+// console.log(greetings);
+
+
+// var div = document.querySelector(".item");
+
+
+// for (var i = 0; i < hobbies.length; i++) {
+//     console.log(hobbies[i])
+//     div.innerHTML += `<h1>${hobbies[i]}</h1>`
+// }
+
+
+
+
+
+
+
+
+
+// Strings Methods Ended
+
+
+
+
+
+
+
+
+
+// Number Methods Started
+
+
+
+
+
+
+//round
+//ceil
+//floor
+//random
+//parseInt
+//parseFloat
+
+
+
+
+
+// var num = 20.2;
+// // console.log(Math.round(num))
+// // console.log(Math.floor(num))
+// // console.log(Math.ceil(num))
+
+
+
+
+
+// var num = Math.random() * 6
+// console.log(Math.ceil(num));
+
+
+
+
+
+// var num = "20.53545";
+// var convertStr = parseInt(num)
+// var convertStr = parseFloat(num)
+// var convertStr = +num
+// console.log(typeof (convertStr), convertStr);
+
+
+
+
+
+
+
+// Number Methods Ended
+
+
+
+
+
+
+// Toss App Cooding is avalibale in the chat 
+// It has also one folder alone go & see now
+
+
+
+
+
+
+
+// Object Started but this is important topic of Javascript
+
+
+
+
+
+
+
+
+// var
+// let
+// const
+
+
+// console.log(username);
+
+// var redeclare or reassign
+
+// var username = "abdullah"
+// var username = 'usman'
+// console.log(username);
+
+
+// let sirf reassign krna deta ha
+
+
+// let city = 'karachi'
+// // let city = 'pindi' // redeclare nahi krskta
+// city = 'lahore'
+// console.log(city);
+
+
+
+
+// const dono nahi krna deta ha
+
+
+// const username = 'abdullah'
+// username = 'usman'
+// console.log(username);
+
+
+// let username;
+// username = 'abdullah'
+
+
+
+// const city = 'karachi'
+
+
+
+// const arr = ['abc', 'def']
+// arr.push('push')
+// console.log(arr);
+
+
+
+
+// const fruits = ['banana', 'orange', 'apple']
+// console.log(fruits[0]);
+
+
+
+// object
+
+
+
+// collection of key and value is called object
+
+
+
+// const obj = {
+//     username: 'abdullah',
+//     age: 20,
+//     email: 'mabdullah2037@gmail.com',
+//     isLoggedIn: true,
+// }
+
+
+// // console.log(obj["username"]);
+// obj.username = 'usman'
+// obj.rollNumber = 2342432
+// delete obj.age
+// console.log(obj);
+
+
+
+
+
+
+
+
+
+
+
+// var hello = function () {
+//     console.log('hello world');
+
+// }
+
+// hello()
+
+
+
+
+// const user = {
+//     name: 'abdullah',
+//     email: 'mabdullah@gmail.com',
+//     hobbies: ['eating', 'sleeping', 'cooking'],
+//     greetUser: function () {
+//         console.log(`hello ${this.email}`);
+//         return this.email
+
+//     }
+// }
+
+
+
+// user.hobbies.push('updated')
+// console.log(user.hobbies)
+// user.greetUser()
+
+
+
+// console.log(typeof this);
+
+
+
+
+
+
+
+// Object Ended
