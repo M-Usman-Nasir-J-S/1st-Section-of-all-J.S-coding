@@ -1370,8 +1370,25 @@ function changeValue() {
 
 
 
-// Toss App Cooding is avalibale in the chat 
-// It has also one folder alone go & see now
+
+// Date & Time Started
+
+
+
+
+
+// console.log("date and time")
+
+// var rightNow = new Date();
+// var days = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+// console.log(rightNow.toString());
+// console.log(days[rightNow.getDay()]);
+// console.log(rightNow.getMonth());
+// console.log(rightNow.getDate());
+// console.log(rightNow.getFullYear());
+// console.log(rightNow.getSeconds());
+// console.log(rightNow.getMilliseconds());
+// console.log(rightNow.getTime() / 1000 / 60 / 60 / 24);
 
 
 
@@ -1379,90 +1396,101 @@ function changeValue() {
 
 
 
-// Object Started but this is important topic of Javascript
+// function calculateAge(dateOfBirth) {
+//     var myBirthDate = new Date(dateOfBirth).getTime();
+//     var rightNow = new Date().getTime()
 
-
-
-
-
-
-
-
-// var
-// let
-// const
-
-
-// console.log(username);
-
-// var redeclare or reassign
-
-// var username = "abdullah"
-// var username = 'usman'
-// console.log(username);
-
-
-// let sirf reassign krna deta ha
-
-
-// let city = 'karachi'
-// // let city = 'pindi' // redeclare nahi krskta
-// city = 'lahore'
-// console.log(city);
-
-
-
-
-// const dono nahi krna deta ha
-
-
-// const username = 'abdullah'
-// username = 'usman'
-// console.log(username);
-
-
-// let username;
-// username = 'abdullah'
-
-
-
-// const city = 'karachi'
-
-
-
-// const arr = ['abc', 'def']
-// arr.push('push')
-// console.log(arr);
-
-
-
-
-// const fruits = ['banana', 'orange', 'apple']
-// console.log(fruits[0]);
-
-
-
-// object
-
-
-
-// collection of key and value is called object
-
-
-
-// const obj = {
-//     username: 'abdullah',
-//     age: 20,
-//     email: 'mabdullah2037@gmail.com',
-//     isLoggedIn: true,
+//     var remainingMilliseconds = rightNow - myBirthDate
+//     console.log(Math.floor(remainingMilliseconds / 1000 / 60 / 60 / 24 / 30 / 12));
 // }
 
 
-// // console.log(obj["username"]);
-// obj.username = 'usman'
-// obj.rollNumber = 2342432
-// delete obj.age
-// console.log(obj);
+// calculateAge('November 27 , 2003')
+// calculateAge('October 22 , 1920')
+
+
+
+
+// Date & Time Ended
+
+
+
+
+
+
+
+// Stop Watch Cooding is avalibale in the chat 
+// It has also one folder alone go & see now
+
+
+// Object Cooding is avalibale in the chat 
+// It has also one folder alone go & see now
+
+// Object is important topic of Javascript also;
+
+
+
+
+
+
+
+
+// Dom Manupulation Started
+
+
+
+
+// // const head = document.querySelector('.head');
+// const head = document.querySelectorAll('.head');
+// // const head = document.getElementById('head');
+// // const head = document.getElementsByTagName('h1')
+// // const head = document.getElementsByClassName('head')
+
+// console.log(head);
+
+// head[1].innerHTML = "changed though js"
+
+
+// console.log(document.childNodes[0].childNodes[1].childNodes[1])
+
+// const h1 = document.childNodes[0].childNodes[1].childNodes[1]
+
+// console.log(h1.nodeType);
+
+
+// h1.innerHTML = "HELLO"
+
+
+// const div1 = document.querySelector("#div1").childNodes[0].childNodes[1].childNodes[0];
+
+// // console.log(div1.childNodes)
+// console.log(div1.nodeValue)
+
+
+
+// const ul = document.querySelector("#ul");
+
+// ul.innerHTML = `<li>karachi</li>
+//       <li>Islamabad</li>
+//       <li>Lahore</li>
+//       <li>Shikarpur</li>`
+
+
+// const li1 = document.createElement('LI');
+// const li1Text = document.createTextNode("karachi");
+// li1.appendChild(li1Text)
+
+// ul.appendChild(li1)
+
+
+
+// array of object
+// for loop
+// manipulation / rendering
+
+
+
+// Dom manupulation Ended
 
 
 
@@ -1474,36 +1502,533 @@ function changeValue() {
 
 
 
-// var hello = function () {
-//     console.log('hello world');
+// Sir Abdullah JavaScript Test In 1 Date of Octuber 
 
+// Started
+
+
+
+
+
+
+
+// var input = document.querySelector("#input")
+// var select = document.querySelector("#select")
+// var render = document.querySelector("#render")
+
+
+// function convert() {
+    
+//     var F;
+//     var C;
+
+//     if (select.value == "Calcius") {
+//         console.log("converting to Franchist");
+//         F = ((input.value * 9/5) + 32);
+//         console.log(F);
+//         render.innerHTML += `<br /> ${select.value} is equal to ${F} °Franchist`
+//         input.value = " ";
+//     }
+
+//     else if (select.value == "Franchiest") {
+        
+//         console.log("converting to Calsius");
+//         C = ((input.value - 32) * 5/9);
+//         console.log(C);
+//         render.innerHTML += `<br /> ${select.value} is equal to ${C} °Calsius`
+//         input.value = " ";
+        
+//     }
+
+// }
+
+
+
+
+
+
+
+// Sir Abdullah JavaScript Test In 1 Date of Octuber 
+
+// Ended
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Array-Loop Class Started
+
+
+
+
+// callback function
+// higher order function
+
+// map
+// for each
+// filter
+// reduce
+// arrow function
+
+
+// const fruits = ["apple", "grapes", "banana", "orange"];
+
+
+// console.log(fruits)
+
+
+// const ol = document.querySelector("#ordered-list");
+
+
+// for(let i = 0; i < fruits.length; i++){
+//     console.log(fruits[i])
+//     ol.innerHTML += `<li>${fruits[i]}</li>`
+// }
+
+// function hello(username){ // parameter receive krna
+//     return `hello ${username}`
+// }
+
+// hello('abdullah') // argument pass krna
+
+
+// * kisi bhi function ka argument ma agar ma aik or function dedo, undar dena wala function ko callback function kehta hain.
+
+
+// fruits.map(function (item , index, arr){
+//     console.log(item , index , arr)
+//     ol.innerHTML += `<li>${item}</li>`
+// })
+
+// const arr = fruits.forEach(function (item , index, arr){
+//     console.log(item , index , arr)
+//     ol.innerHTML += `<li>${item}</li>`
+
+//     return item
+// })
+
+
+// console.log(arr)
+// const arr = fruits.map(function (item , index, arr){
+//     // console.log(item , index , arr)
+//     ol.innerHTML += `<li>${item}</li>`
+
+//     return item + " hello"
+// })
+
+// console.log(arr)
+
+// const arr = fruits.map(function (item , index){
+//     console.log(item)
+//     return item + ' +'
+// })
+
+// console.log(arr);
+
+
+// const users = [
+//     { id: 1, name: "Alice", age: 28 },
+//     { id: 2, name: "Bob", age: 34 },
+//     { id: 3, name: "Charlie", age: 22 },
+//     { id: 4, name: "David", age: 40 },
+//     { id: 5, name: "Eva", age: 26 },
+//     { id: 6, name: "Frank", age: 31 },
+//     { id: 7, name: "Grace", age: 29 },
+//     { id: 8, name: "Hank", age: 37 },
+//     { id: 9, name: "Ivy", age: 24 },
+//     { id: 10, name: "Jack", age: 33 },
+// ];
+
+
+
+// users.map(function (item){
+//     console.log(item)
+//     ol.innerHTML += `<li>${item.name}</li>`
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// arrow function
+
+
+
+// function greetUser(username){
+//     console.log(`hello ${username}`);
+// }
+
+// const calledFunc = greetUser('usman')
+// console.log(greetUser('abdullah'));
+
+
+
+
+
+
+
+
+
+
+// function sum(num1 , num2){
+//     console.log(num2);
+
+// }
+
+
+// sum(20)
+
+
+
+
+
+// console.log("hello world!");
+
+
+
+// arrow function
+
+// const greeting = greetUser('abdullah');
+// console.log(greeting)
+// function greetUser(username){
+//     return `hello ${username}`
+// }
+
+
+
+
+
+// greetUser()
+
+// const greetUser = () => {
+//     console.log("hello world")
+// }
+
+
+// const greetUser = (username) => `hello ${username}`
+
+// let greetings = greetUser('abdullah')
+// console.log(greetings);
+
+
+
+
+// console.log(username);
+
+// var username = "abdullah";
+
+
+
+// const ol = document.querySelector('#ordered-list');
+
+// const iteratedArr = users.forEach((item)=>{
+//     console.log(item)
+//     ol.innerHTML += `<li>${item.name}</li>`
+//     return item.age + 10
+// })
+
+// console.log(iteratedArr)
+
+
+
+
+// foreach vs map
+
+
+
+
+// filter
+
+
+// const num = [1, 5, 6, 7, 8, 3, 6, 9, 2];
+
+// const filteredArr = num.filter(item => item < 5)
+
+
+// console.log(filteredArr)
+
+
+// reduce
+
+
+// const num = [1, 2, 3, 4];
+
+// const sum = num.reduce((acc, cval) => {
+//   return acc + cval;
+// }, 5);
+
+// console.log(sum);
+
+// 0 + 1;
+// 1 + 2;
+// 3 + 3;
+// 6 + 4;
+
+// const totalCost = products.reduce((acc, cval) => {
+//   return acc + cval.price;
+// }, 0);
+
+// console.log(Math.ceil(totalCost));
+
+
+
+
+
+// Array-Loop Class Ended
+
+
+
+
+
+
+
+
+
+
+
+// Events Class Started
+
+
+
+
+// function greetUser() {
+//     console.log("hello Abdullah!");
+//   }
+  
+  // add event listner
+  
+  // const h1 = document.querySelector("#head");
+  // h1.addEventListener("click", greetUser);
+  
+  // const btn = document.querySelector("#btn");
+  // btn.addEventListener("mouseover", () => {
+  //   console.log("hello mouse over");
+  // });
+  
+  // btn.addEventListener("mouseout", () => {
+  //   console.log("mouse out");
+  // });
+  
+  // const image = document.querySelector("#image");
+  
+  // const offBulb =
+  //   "https://i.pinimg.com/originals/e0/fd/25/e0fd25f9127a9a109a0648c83ee61643.png";
+  
+  // const onBulb =
+  //   "https://i.pinimg.com/736x/cc/7b/58/cc7b58cbcd341a19a6545d947e48329b.jpg";
+  // image.addEventListener("mouseover", () => {
+  //   image.src = onBulb;
+  // });
+  
+  // image.addEventListener("mouseout", () => {
+  //   image.src = offBulb;
+  // });
+  
+  // const h1 = document.querySelector("h1");
+  // console.log(h1.innerHTML);
+  
+  // const h1 = document.querySelector("#head");
+  
+  // h1.addEventListener("click", (event) => {
+  //   console.log(event.target.innerHTML);
+  // });
+  
+  // bubbling
+  // capturing
+  
+//   const ul = document.querySelector(".images");
+//   const singleImg = document.querySelector("#image-3");
+  
+  // ul.addEventListener("click", (event) => {
+  //   // 1 method
+  //   //   event.target.parentNode.remove();
+  //   //   2 method
+  //   if (event.target.parentNode.tagName === "LI") {
+  //     const removeItem = event.target.parentNode;
+  //     removeItem.parentNode.removeChild(removeItem);
+  //   } else {
+  //     console.log("bhai ul kaisa delete kro?");
+  //   }
+  //   // duplicate item
+  //   //   console.log(event.target.parentNode.outerHTML);
+  //   //   ul.innerHTML += event.target.parentNode.outerHTML;
+  // });
+  
+  // singleImg.addEventListener("click", (event) => {
+  //   // parent event kaam nahi kraiga
+  //   //   event.stopPropagation();
+  //   console.log("image clicked");
+  // });
+  
+  // const li = document.querySelector("#anchor");
+  // li.addEventListener("click", (event) => {
+  //   event.preventDefault();
+  //   console.log("anchor clicked");
+  // });
+  
+//   const form = document.querySelector("#form");
+  
+//   form.addEventListener("submit", (event) => {
+//     event.preventDefault();
+//     console.log("form submit");
+//   });
+  
+  // add event listner
+  // event.preventDefault();
+  // event.stopPropagation();
+  // onsubmit
+  // onmouseover
+  // onmouseout
+  // outerhtml
+  // event {}
+
+
+
+
+
+// Event Class Ended
+
+
+
+
+
+
+
+
+
+
+
+// Synchronous means line by line code working
+
+// Asynchronous means time taken Task
+
+
+
+
+
+// Synchronous task
+
+
+
+// console.log("hello world 1");
+// console.log("hello world 2");
+// console.log("hello world 3");
+// setTimeout(() => {
+//   console.log("hello world 4");
+// }, 0);
+// console.log("hello world 5");
+
+
+
+
+
+// Asynchronous Task doing the help of these
+
+
+// settimeout
+// setinterval
+// promises
+// fetch
+// async await
+// axios
+
+
+
+// const promise1 = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         if (100000 > 100000) {
+//             resolve("Han")
+//         } else {
+//             reject("Nahi")
+//         }
+//     }, 1000)
+// })
+
+// .then(res => {
+//     console.log(res);
+    
+// })
+// .catch(err => {
+//     console.log(err);
+    
+// })
+
+
+// console.log(promise1);
+
+
+
+// async function hello(value) {
+//    try {
+//      var ruko = await new Promise ((resolve, reject) => {
+//          setTimeout(function () {
+//              if (value > 1000) {
+//                  resolve("True Condition")
+//              }else{
+//                  reject("False Condition")
+//              }
+//          }, 1000)
+//      })
+     
+//          console.log(ruko);
+         
+//    } catch (error) {
+
+//      console.log(error); 
+//    }
+// }
+
+// hello(2000)
+
+
+
+// function promise3(num) {
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//             if (num > 10) {
+//                 resolve("waqai sahi number he")
+//             }else{
+//                 reject("Galat number he sahi karo")
+//             }
+//         }, 1000)
+//     })
+// }
+
+// async function hello() {
+//     try {
+//         const result = await promise3(3)
+//         console.log(result);
+        
+//     } catch (error) {
+//         console.error(error)
+        
+//     }
 // }
 
 // hello()
 
 
 
-
-// const user = {
-//     name: 'abdullah',
-//     email: 'mabdullah@gmail.com',
-//     hobbies: ['eating', 'sleeping', 'cooking'],
-//     greetUser: function () {
-//         console.log(`hello ${this.email}`);
-//         return this.email
-
-//     }
-// }
-
-
-
-// user.hobbies.push('updated')
-// console.log(user.hobbies)
-// user.greetUser()
-
-
-
-// console.log(typeof this);
+// Asynchronous Ended
 
 
 
@@ -1511,4 +2036,5 @@ function changeValue() {
 
 
 
-// Object Ended
+// Api Cooding is avalibale in the chat 
+// It has also one folder alone go & see now
